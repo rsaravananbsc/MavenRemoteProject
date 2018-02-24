@@ -4,8 +4,6 @@ import org.testng.annotations.Test;
 import MavenProject.MavenRemoteProject.POMClass.*;
 import MavenProject.MavenRemoteProject.BaseClass.*;
 
-
-
 public class ValidLogin extends BaseTest {
 	@Test(priority=1,groups="smoke")
 	public void testValidLogin(){

@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
 <parameter name="browser" value="chrome"/>
-<parameter name="ip" value="192.168.1.9"/>
+<parameter name="ip" value="10.101.155.90"/>
   <test thread-count="5" name="Test">
     <classes>
       <class name="MavenProject.MavenTestProject.ValidLogin"/>
